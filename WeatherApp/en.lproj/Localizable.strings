@@ -1,0 +1,29 @@
+/* 
+  Localizable.strings
+  WeatherApp
+
+  Created by Vibha on 2020/09/10.
+  Copyright © 2020 DVT. All rights reserved.
+*/
+
+//Weather type
+"cloud" = "clouds";
+"mist" = "mist";
+"haze" = "haze";
+"rain" = "rain";
+"smoke" = "smoke";
+"drizzle" = "drizzle";
+"clear" = "clear";
+"thunderstorm" = "thunderstorm";
+"cancel" = "Cancel";
+"retry" = "Retry";
+"offline" = "Offline";
+"noConnection" = "Unable to connect internet";
+"pleaseRetry" = "Failed to get data, retry?";
+"loadOffline" = "Would you like yo load last saved weather?";
+"noOfflineData" = "Sorry, No offline data saveed.";
+
+// Screen Title
+"favorite" = "Favorite";
+"map" = "Map";
+"weatherDetails" = " Weather Details";
