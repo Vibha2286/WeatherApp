@@ -59,7 +59,6 @@ fileprivate extension ProgressHudView {
     
     func configureActivityIndicatorView() {
         activityIndicatorView.translatesAutoresizingMaskIntoConstraints = false
-        activityIndicatorView.style = .large
         activityIndicatorView.color = .white
         activityIndicatorView.startAnimating()
         addSubview(activityIndicatorView)

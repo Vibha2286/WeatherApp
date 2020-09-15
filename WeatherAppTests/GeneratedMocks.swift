@@ -1,4 +1,4 @@
-// MARK: - Mocks generated from file: WeatherApp/View/MapView.swift at 2020-09-15 21:19:35 +0000
+// MARK: - Mocks generated from file: WeatherApp/View/MapView.swift at 2020-09-15 22:01:55 +0000
 
 //
 //  MapView.swift
@@ -144,7 +144,7 @@ class MockMapView: MapView, Cuckoo.ProtocolMock {
 }
 
 
-// MARK: - Mocks generated from file: WeatherApp/View/WeatherDetailsView.swift at 2020-09-15 21:19:35 +0000
+// MARK: - Mocks generated from file: WeatherApp/View/WeatherDetailsView.swift at 2020-09-15 22:01:55 +0000
 
 //
 //  WeatherDetailsView.swift
@@ -397,7 +397,7 @@ class MockWeatherDetailsView: WeatherDetailsView, Cuckoo.ProtocolMock {
 }
 
 
-// MARK: - Mocks generated from file: WeatherApp/View/WeatherView.swift at 2020-09-15 21:19:35 +0000
+// MARK: - Mocks generated from file: WeatherApp/View/WeatherView.swift at 2020-09-15 22:01:55 +0000
 
 //
 //  WeatherView.swift

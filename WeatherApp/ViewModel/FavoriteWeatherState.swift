@@ -13,15 +13,15 @@ final class FavoriteWeatherState {
     
     static let favoritesKey = "WEATHER_FAVORITES" // static key for UserDefaults
         
-    @Published var hasInfo: Bool = false
+    var hasInfo: Bool = false
     
-    @Published var favorites: [Favorite] = FavoriteWeatherState.loadFavorites() {
+    var favorites: [Favorite] = FavoriteWeatherState.loadFavorites() {
         didSet {
             saveFavorites()
         }
     }
     
-    @Published var current: ForecastWeatherResponse? = nil {
+    var current: ForecastWeatherResponse? = nil {
         didSet {
             if !hasInfo {
                 hasInfo = true
